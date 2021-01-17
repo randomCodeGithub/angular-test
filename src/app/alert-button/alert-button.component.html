@@ -1,0 +1,13 @@
+<div class="content">
+    <h3>Alert Button</h3>
+
+    <article [hidden]="hideContent">
+        <div>
+            <p>Warning code {{ severity }}</p>
+        </div>
+        <div class="message-body">
+        </div>
+    </article>
+
+    <button (click)="toggleAsync()">Toggle Visibillity</button>
+</div>
